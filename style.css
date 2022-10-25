@@ -1,0 +1,128 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #73777B;
+}
+
+img{
+    height: 80px;
+}
+
+
+/* calculator */
+.calculator{
+    height: 600px;
+    width: 400px;
+    border: solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15%;
+    background-color: #FBF8F1;
+}
+
+/* screen */
+.screen{
+    height: 160px;
+    width: 340px;
+    border: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.screen-operation{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 20px;
+    font-size: 32px;
+    margin-right: 14px;
+    font-family: 'Orbitron', sans-serif;
+                                                
+}
+.screen-result{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 46px;
+    margin-right: 14px;
+    margin-bottom:20px;
+    font-family: 'Orbitron', sans-serif;
+                                                
+}
+
+/* buttons container*/
+.keyboard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* rows */
+.row{
+    display: flex;
+}
+
+/* buttons */
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 2px solid #FBF8F1;
+    transition: all .1s ease;
+}
+
+#key-clear{
+    background-color: #E63946;
+    border-radius: 0px 15px 0px 0px
+}
+
+#key-equals{
+    background-color: #F3C677;
+    border-radius: 0px 0px 15px 0px
+}
+
+#key-7{
+    border-radius: 15px 0px 0px 0px
+}
+
+#key-multiply{
+    border-radius: 0px 0px 0px 15px
+}
+
+.key-num{
+    background-color: #F7ECDE;
+}
+
+.key-sym{
+    background-color: #E9DAC1;
+}
+
+.chosen {
+    transform: scale(1.1);
+}
+
+/* -- colors--
+
+#F1FAEE a grey ish - screen
+#E63946 a red - erase
+#F3C677 deser?t - equals
+#FBF8F1 calc
+#F7ECDE num 1
+#E9DAC1 num 2
+
+*/
